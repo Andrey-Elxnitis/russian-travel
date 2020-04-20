@@ -1,0 +1,28 @@
+.cover__overlay {
+    border: 1px solid wheat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cover__overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 1s linear;
+}
+
+.cover__overlay:hover:before {
+    background: rgba(0, 0, 0, 0.8);
+}
