@@ -5,8 +5,20 @@
     grid-row: 2/3;
 }
 
-/* @media screen and (max-width: 420px) {
+@media screen and (max-width: 1080px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 420px) {
     .place__image {
         max-width: 320px;
     }
-} */
+}

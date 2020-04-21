@@ -7,6 +7,19 @@
     line-height: 76px;
     text-align: center;
     max-width: 550px;
-    margin-bottom: 30px;
     z-index: 1;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 420px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
 }

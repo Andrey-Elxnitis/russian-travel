@@ -4,6 +4,12 @@
     align-self: end;
 }
 
+@media screen and (max-width: 850px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .place__website {
         display: none;
