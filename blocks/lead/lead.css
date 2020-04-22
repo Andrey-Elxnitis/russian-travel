@@ -4,7 +4,6 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-    border: 1px solid white;
     max-width: 984px;
     margin-top: 56px;
     margin-left: auto;

@@ -4,7 +4,6 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
-    border: 1px solid white;
     position: relative;
     max-width: 1184px;
     margin-top: 92px;

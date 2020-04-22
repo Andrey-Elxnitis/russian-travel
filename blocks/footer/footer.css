@@ -4,7 +4,6 @@
 @import url(./__links/footer__links.css);
 
 .footer {
-    border: 1px solid red;
     max-width: 1184px;
     margin-top: 92px;
     padding-bottom: 24px;
