@@ -1,8 +1,26 @@
 .intro__list-text {
-  font-family: 'Inter';
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
+  margin-left: 148px;
+}
+
+@media screen and (max-width: 1080px) {
+  .intro__list-text {
+      margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .intro__list-text {
+      margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .intro__list-text {
+      margin-left: 16px;
+  }
 }
