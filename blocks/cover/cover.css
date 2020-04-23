@@ -1,11 +1,11 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__image/cover__image.css);
 
 .cover {
     position: relative;
     max-width: 1184px;
-    padding-bottom: 52.9%;
     margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
